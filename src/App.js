@@ -8,10 +8,11 @@
 import React, {useState} from 'react';
 // Import the Posts (plural!) and SearchBar components, since they are used inside App component
 import Posts from './components/Posts/Posts';
+import SearchBar from './components/SearchBar/SearchBar';
 // Import the dummyData
 import userData from './dummy-data';
 import './App.css';
-import SearchBar from './components/SearchBar/SearchBar';
+
 
 const App = () => {
   const [posts, setPosts] = useState(userData);
